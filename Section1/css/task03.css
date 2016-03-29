@@ -1,0 +1,48 @@
+/*global*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 20px;
+	font-size: 12px;
+}
+img {
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+
+/*外容器*/
+#main-wrap {
+	padding: 20px;
+	height: auto;
+	overflow: hidden;
+	background-color: #ACA1A1;
+}
+/*左*/
+#left {
+	padding: 20px;
+	width: 160px;
+	float: left;
+	background-color: #963B3B;
+}
+#left p {
+	margin-left:20px; 
+    float: left;
+}
+/*中*/
+#middle {
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+	background-color: #1C6BA7;
+}
+/*右*/
+#right {
+	padding: 20px;
+	width: 80px;
+	float: right;
+	background-color: #3B7725;
+}
